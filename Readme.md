@@ -19,18 +19,23 @@ Useful for social-media analytics, sentiment research, and understanding user re
 
 ▶️ How to Run Locally
 1. Create virtual environment
+   
 python -m venv venv
 venv\Scripts\activate   # Windows
 
-2. Install dependencies
+3. Install dependencies
+   
 pip install -r requirements.txt
 
-3. Run preprocessing + emotion classification
+5. Run preprocessing + emotion classification
+   
 python src/run_preprocessing_and_emotion_classification.py
 
-4. Launch Streamlit app
+7. Launch Streamlit app
+   
 streamlit run src/app.py
 
 🌐 Live Demo
 
 https://sentimentmap-cdsee5lv2leuxwrvutgiu9.streamlit.app/
+
